@@ -10,14 +10,12 @@ public class AscendingSequence {
                     result[i] = start;
                     start += step;
                 }
-
             }
 
             return result;
         }
 
         return new int[]{};
-
     }
 }
 
