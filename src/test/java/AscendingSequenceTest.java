@@ -3,13 +3,6 @@ import org.junit.jupiter.api.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class AscendingSequenceTest {
-    AscendingSequence as;
-
-    @BeforeEach// put here something in common in tests, optional
-    void setUp() {
-    as = new AscendingSequence();
-    }
-
 
     @Order(1)
     @Test
