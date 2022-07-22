@@ -146,5 +146,4 @@ public class ReverseStringTest {
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
-
 }
